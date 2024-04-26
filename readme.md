@@ -18,3 +18,15 @@ Arduino connected to a bigger circuit which controls power for the pc, meaning y
 ***Circuit coming soon...***
 
 ***For any questions, contact info is in my profile's readme.***
+
+$$
+
+v = 0,157 m/s * π rad/s * sqrt(1 - (0,025 m/0,05 m)^2) = 0,1 m/s
+
+$$
+
+
+$$
+
+  
+$$
