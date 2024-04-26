@@ -11,7 +11,7 @@ try:
 
   while True:    
     data = ser.readline().decode('utf-8').rstrip()
-    time.sleep(1)
+    time.sleep(10)
 
     if data == 'Shutdown':
       import os
@@ -19,9 +19,17 @@ try:
       ser.close()
       break
 
+    elif data == 'Restart':
+      import os
+      os.system("shutdown /r")
+      ser.close()
+      break
 
 except serial.SerialException as e:
   print("Error connecting to Arduino:", e)
 
+except serial.SerialTimeoutException as e:
+  print("Timeout Error:", e)
+  
 except Exception as e:
   print("Error:", e)
