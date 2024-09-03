@@ -21,8 +21,6 @@ Arduino connected to a bigger circuit which controls power for the pc, meaning y
 
 $$
 
-v = 0,157 m/s * π rad/s * sqrt(1 - (0,025 m/0,05 m)^2) = 0,1 m/s
-
 $$
 
 
